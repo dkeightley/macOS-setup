@@ -1,0 +1,32 @@
+tap 'caskroom/cask'
+
+brew 'git'
+brew 'mtr'
+brew 'npm'
+brew 'awscli'
+brew 'awslogs'
+brew 'aws-elasticbeanstalk'
+brew 'aws-as'
+brew 'aws-mon'
+brew 'antigen'
+brew 'bash-completion'
+brew 'ansible'
+brew 'nmap'
+brew 'rsync'
+brew 'ipcalc'
+
+cask 'brackets'
+cask 'atom'
+cask 'firefox'
+cask 'gimp'
+cask 'google-chrome'
+cask 'spectacle'
+cask 'sequel-pro'
+cask 'vlc'
+cask 'slack'
+cask 'virtualbox'
+cask 'virtualbox-extension-pack'
+
+# now using docker for mac
+#cask 'docker'
+
