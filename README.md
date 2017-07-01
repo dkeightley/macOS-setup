@@ -1,6 +1,8 @@
 
 # New macOS setup
 
+## Install the basics
+
 ### Install Brew
 
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
@@ -17,37 +19,37 @@ https://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 https://docs.docker.com/docker-for-mac/install/
 
-### Setup VIM
+## Setup VIM
 
-#### Install pathogen
+### Install pathogen
 
 ```
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
 
-#### Install solarized theme
+### Install solarized theme
 
 ```
 cd ~/.vim/bundle
 git clone git://github.com/altercation/vim-colors-solarized.git
 ```
 
-#### Install ansible-vim
+### Install ansible-vim
 
 `git clone https://github.com/pearofducks/ansible-vim ~/.vim/bundle/ansible-vim`
 
-#### Install oh-my-zsh
+### Install oh-my-zsh
 
 `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
-Set the your preferred theme
+### Set the your preferred theme from the below
 
 Agnoster
 
 `sed -i '' 's/ZSH_THEME=.*/ZSH_THEME="agnoster"/' ~/.zshrc`
 
-Lowerlevel9k
+Lowerlevel9k (preferred)
 
 `git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
 
@@ -58,7 +60,7 @@ Lowerlevel9k
 `git clone git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions`
 `git clone git://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting`
 
-### Enable zsh plugins
+#### Enable zsh plugins
 
 `set -i '' 's/plugins=.*/plugins=(zsh-autosuggestions zsh-syntax-highlighting docker docker-compose aws tmux git ssh-agent)/ ~/.zshrc'`
 
