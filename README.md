@@ -1,5 +1,5 @@
 
-# New macOS setuo
+# New macOS setup
 
 ### Install Brew
 
