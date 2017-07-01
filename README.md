@@ -49,11 +49,17 @@ Agnoster
 
 `sed -i '' 's/ZSH_THEME=.*/ZSH_THEME="agnoster"/' ~/.zshrc`
 
+#### OR
+
 Lowerlevel9k (preferred)
 
 `git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
 
 `sed -i '' 's/ZSH_THEME=.*/ZSH_THEME="powerlevel9k\/powerlevel9k"/' ~/.zshrc`
+
+You can anslo copt the .zshrc file to your home dir
+
+`cp .zshrc ~/`
 
 #### zsh auto suggestions and highlighting
 
@@ -63,6 +69,12 @@ Lowerlevel9k (preferred)
 #### Enable zsh plugins
 
 `set -i '' 's/plugins=.*/plugins=(zsh-autosuggestions zsh-syntax-highlighting docker docker-compose aws tmux git ssh-agent)/ ~/.zshrc'`
+
+OR
+
+Copy the .zshrc file to your home dir
+
+`cp .zshrc ~/`
 
 #### Setup a custom font
 
