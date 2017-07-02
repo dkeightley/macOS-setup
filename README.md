@@ -30,10 +30,7 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 ### Install solarized theme
 
-```
-cd ~/.vim/bundle
-git clone git://github.com/altercation/vim-colors-solarized.git
-```
+`git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized`
 
 ### Install ansible-vim
 
