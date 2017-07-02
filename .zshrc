@@ -55,7 +55,7 @@ plugins=(zsh-autosuggestions zsh-syntax-highlighting  docker docker-compose aws 
 
 source $ZSH/oh-my-zsh.sh
 
-AUTOSUGGESTION_HIGHLIGHT_COLOR="fg=8"
+#AUTOSUGGESTION_HIGHLIGHT_COLOR="fg=8"
 
 # User configuration
 

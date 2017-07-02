@@ -57,7 +57,7 @@ Lowerlevel9k (preferred)
 
 `sed -i '' 's/ZSH_THEME=.*/ZSH_THEME="powerlevel9k\/powerlevel9k"/' ~/.zshrc`
 
-You can anslo copt the .zshrc file to your home dir
+You can also copy the .zshrc file to your home dir
 
 `cp .zshrc ~/`
 
@@ -76,7 +76,7 @@ Copy the .zshrc file to your home dir
 
 `cp .zshrc ~/`
 
-#### Setup a custom font
+#### Setup iTerm2 with a custom font
 
 The above themes won't look nice until you use a custom font
 
@@ -84,7 +84,7 @@ https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20
 
 Install the font, and set both Terminal and iTerm2 to use the font
 
-OR - you can install the included profiles in this repo
+OR - you can load the included preferenes in this repo (*iterm2.plist and *.terminal)
 
 ## Setup macOS
 

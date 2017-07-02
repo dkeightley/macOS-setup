@@ -36,7 +36,6 @@ cask 'virtualbox-extension-pack'
 cask 'little-snitch'
 cask 'caffeine'
 cask 'slate'
-cask 'bartender'
 
 # now using docker for mac
 #cask 'docker'
