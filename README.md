@@ -118,3 +118,16 @@ Run the setup-macos.sh script, this has a bunch of tweaks you won't find in Syst
 [currently](https://chrome.google.com/webstore/detail/currently/ojhmphdkpgbibohbnpbfiefkgieacjmh?hl=en)
 
 ### Ahhh, that's better, time to reboot...
+
+
+
+## Other bits..
+
+If you like having some Docker OS's and apps locally for testing etc here's a good set to have pull'ed down.
+
+```
+for i in nginx centos ubuntu logstash swarm redis kibana elasticsearch jenkins
+  do
+    docker pull $i
+done
+```
