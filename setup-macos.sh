@@ -5,8 +5,11 @@
 # Disable boot sound effects
 sudo nvram SystemAudioVolume=" "
 
-# Save screenshots to the Pictures/Screenshots
-mkdir ${HOME}/Pictures/Screenshots
+# Save screenshots to the Pictures/Screenshots directory
+if [ ! -d ${HOME}/Pictures/Screenshots ]
+  then
+    mkdir ${HOME}/Pictures/Screenshots
+fi
 defaults write com.apple.screencapture location -string "${HOME}/Pictures/Screenshots"
 
 # Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
