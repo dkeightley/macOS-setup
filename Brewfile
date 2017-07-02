@@ -21,6 +21,7 @@ brew 'screen'
 brew 'diff-so-fancy'
 brew 'git-extras'
 brew 'httpie'
+brew 'tree'
 
 cask 'brackets'
 cask 'atom'
