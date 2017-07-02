@@ -87,15 +87,15 @@ Copy the .zshrc file to your home dir
 
 `cp .zshrc ~/`
 
-#### Setup terminals with a custom font
+#### Setup terminals with the solarized theme and custom font
 
-The above themes won't look nice until you use a custom font
+The above zsh themes won't look very nice until you setup the terminal theme and a nicer font
+
+Meslo is nice, however feel free to choose your own.
 
 https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf
 
-Install the font, and set both Terminal and iTerm2 to use the font
-
-OR - you can load the included preferenes in this repo (*iterm2.plist and *.terminal)
+Click the .ttf and install the font, and setup both Terminal and iTerm2 with the solarized patched theme by importing the included preferenes in this repo (*iterm2.plist and *.terminal)
 
 ## Setup macOS
 
@@ -114,3 +114,5 @@ Run the setup-macos.sh script
 [vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
 
 [currently](https://chrome.google.com/webstore/detail/currently/ojhmphdkpgbibohbnpbfiefkgieacjmh?hl=en)
+
+## Reboot
