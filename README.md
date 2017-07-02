@@ -101,7 +101,7 @@ Click the .ttf and install the font, and setup both Terminal and iTerm2 with the
 
 ## Setup macOS
 
-Run the setup-macos.sh script
+Run the setup-macos.sh script, this has a bunch of tweaks you won't find in System Preferences that I find useful
 
 `./setup-macos.sh`
 
