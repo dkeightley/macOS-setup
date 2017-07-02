@@ -40,6 +40,8 @@ cask 'little-snitch'
 cask 'caffeine'
 cask 'slate'
 cask 'telegram'
+cask 'whatsapp'
+cask 'viber'
 
 # now using docker for mac
 #cask 'docker'
