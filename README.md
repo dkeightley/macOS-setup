@@ -76,7 +76,7 @@ Copy the .zshrc file to your home dir
 
 `cp .zshrc ~/`
 
-#### Setup iTerm2 with a custom font
+#### Setup terminals with a custom font
 
 The above themes won't look nice until you use a custom font
 
