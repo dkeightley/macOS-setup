@@ -50,6 +50,8 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 `git clone https://github.com/pearofducks/ansible-vim ~/.vim/bundle/ansible-vim`
 
+## Setup zsh
+
 ### Install oh-my-zsh
 
 `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
@@ -87,9 +89,9 @@ Copy the .zshrc file to your home dir
 
 `cp .zshrc ~/`
 
-#### Setup terminals with the solarized theme and custom font
+## Setup terminals 
 
-The above zsh themes won't look very nice until you setup the terminal theme and a nicer font
+The above zsh themes won't look very nice until you get setup with the solarized theme and a custom font
 
 Meslo is nice, however feel free to choose your own.
 
