@@ -6,10 +6,10 @@ syntax enable
 if !has("gui_running")
     let g:solarized_termtrans=1
     let g:solarized_termcolors=256
+    set background=dark
 endif
 
 colorscheme solarized
-set background=dark
 
 au BufNewFile,BufRead *.py
     \ set tabstop=4
