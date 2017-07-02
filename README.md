@@ -91,7 +91,7 @@ Meslo is nice, however feel free to choose your own.
 
 https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf
 
-Click the .ttf and install the font, and setup both Terminal and iTerm2 with the solarized patched theme by importing the included preferenes in this repo (*iterm2.plist and *.terminal)
+Click the .ttf and install the font, and setup both Terminal and iTerm2 with the solarized patched theme by importing the included preferences in this repo (*iterm2.plist and *.terminal)
 
 ## Setup macOS
 
