@@ -1,6 +1,8 @@
 
 # New macOS setup
 
+This repo is designed to be run on a fresh macOS install, you can also run it on an existing install - you may just need to cherry pick the parts you need, however - everything should work the same.
+
 ## Install the basics
 
 ### Install Brew
