@@ -7,11 +7,23 @@
 
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
+### Install git and clone this repo
+
+```
+brew install git
+git clone https://github.com/dkeightley/macOS-setup.git
+cd macOS-setup
+```
+
 ### Install Java
+
+Grab Java first as some packages depend on it
 
 https://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 ### Install packages from Brew
+
+Let brew do all the work installing the packages
 
 `brew bundle install`
 
