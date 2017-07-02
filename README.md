@@ -115,4 +115,4 @@ Run the setup-macos.sh script
 
 [currently](https://chrome.google.com/webstore/detail/currently/ojhmphdkpgbibohbnpbfiefkgieacjmh?hl=en)
 
-## Reboot
+### Ahhh, that's better, time to reboot...
