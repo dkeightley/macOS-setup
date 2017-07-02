@@ -53,3 +53,10 @@ defaults write com.apple.dock autohide -bool true
 # Privacy: don’t send search queries to Apple
 defaults write com.apple.Safari UniversalSearchEnabled -bool false
 defaults write com.apple.Safari SuppressSearchSuggestions -bool true
+
+# Set laptop hostname and prevent it from being set via DHCP
+echo -n "What hostname would you like to use? "
+read hostname
+sudo scutil --set HostName $hostname
+sudo scutil --set LocalHostName $hostname
+sudo scutil --set ComputerName "${hostname}"
