@@ -1,7 +1,7 @@
 
 # New macOS setup
 
-This repo is designed to be run on a fresh macOS install, you can also run it on an existing install - you may just need to cherry pick the parts you need, however - everything should work the same.
+This repo is designed to be run on a fresh macOS install, you can also run it on an existing install - everything should work the same.
 
 ## Install the basics
 
@@ -42,13 +42,17 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
 
-### Install solarized theme
+#### Install solarized theme
 
 `git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized`
 
-### Install ansible-vim
+#### Install ansible-vim
 
 `git clone https://github.com/pearofducks/ansible-vim ~/.vim/bundle/ansible-vim`
+
+#### Copy the .vimrc into place
+
+`cp .vimrc ~/`
 
 ## Setup zsh
 
@@ -56,13 +60,11 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
-### Set the your preferred theme from the below
+#### Copy the .zshrc file into place
 
-Agnoster
+`cp .zshrc ~/`
 
-`sed -i '' 's/ZSH_THEME=.*/ZSH_THEME="agnoster"/' ~/.zshrc`
-
-#### OR
+### Set the your preferred theme
 
 Lowerlevel9k (preferred)
 
@@ -70,24 +72,16 @@ Lowerlevel9k (preferred)
 
 `sed -i '' 's/ZSH_THEME=.*/ZSH_THEME="powerlevel9k\/powerlevel9k"/' ~/.zshrc`
 
-You can also copy the .zshrc file to your home dir
+#### OR
 
-`cp .zshrc ~/`
+Agnoster
+
+`sed -i '' 's/ZSH_THEME=.*/ZSH_THEME="agnoster"/' ~/.zshrc`
 
 #### zsh auto suggestions and highlighting
 
 `git clone git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions`
 `git clone git://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting`
-
-#### Enable zsh plugins
-
-`set -i '' 's/plugins=.*/plugins=(zsh-autosuggestions zsh-syntax-highlighting docker docker-compose aws tmux git ssh-agent)/ ~/.zshrc'`
-
-OR
-
-Copy the .zshrc file to your home dir
-
-`cp .zshrc ~/`
 
 ## Setup terminals 
 
@@ -97,7 +91,7 @@ Meslo is nice, however feel free to choose your own.
 
 https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf
 
-Click the .ttf and install the font, and setup both Terminal and iTerm2 with the solarized patched theme by importing the included preferenes in this repo (*iterm2.plist and *.terminal)
+Click the .ttf and install the font, and setup both Terminal and iTerm2 with the solarized patched theme by importing the included preferences in this repo (*iterm2.plist and *.terminal)
 
 `cp com.googlecode.iterm2.plist ~/Library/Preferences/`
 
