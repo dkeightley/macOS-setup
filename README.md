@@ -99,6 +99,8 @@ https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20
 
 Click the .ttf and install the font, and setup both Terminal and iTerm2 with the solarized patched theme by importing the included preferenes in this repo (*iterm2.plist and *.terminal)
 
+`cp com.googlecode.iterm2.plist ~/Library/Preferences/`
+
 ## Setup macOS
 
 Run the setup-macos.sh script, this has a bunch of tweaks you won't find in System Preferences that I find useful
