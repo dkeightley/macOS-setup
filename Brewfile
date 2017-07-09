@@ -44,6 +44,7 @@ cask 'slate'
 cask 'telegram'
 cask 'whatsapp'
 cask 'viber'
+cask 'spotify'
 
 # now using docker for mac
 #cask 'docker'
