@@ -366,13 +366,13 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>95 573 796 473 0 0 1920 1178 </string>
+	<string>728 501 918 512 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>2 97 1053 1081 0 0 1920 1178 </string>
+	<string>167 233 780 877 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>521 301 920 877 0 0 1920 1178 </string>
+	<string>3 267 780 911 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>58 109 780 860 0 0 1920 1178 </string>
+	<string>58 92 850 877 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
 	<string>1029 173 780 877 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
@@ -572,7 +572,7 @@
 			<key>Close Sessions On End</key>
 			<true/>
 			<key>Columns</key>
-			<integer>110</integer>
+			<integer>120</integer>
 			<key>Command</key>
 			<string></string>
 			<key>Cursor Color</key>
@@ -1066,7 +1066,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-07-01T07:58:07Z</date>
+	<date>2017-07-02T08:35:29Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>TabStyle</key>
