@@ -45,6 +45,7 @@ cask 'telegram'
 cask 'whatsapp'
 cask 'viber'
 cask 'spotify'
+cask 'evernote'
 
 # now using docker for mac
 #cask 'docker'
