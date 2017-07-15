@@ -22,6 +22,7 @@ brew 'diff-so-fancy'
 brew 'git-extras'
 brew 'httpie'
 brew 'tree'
+brew 'transmission'
 
 cask 'brackets'
 cask 'atom'
