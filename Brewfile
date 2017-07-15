@@ -22,7 +22,6 @@ brew 'diff-so-fancy'
 brew 'git-extras'
 brew 'httpie'
 brew 'tree'
-brew 'transmission'
 
 cask 'brackets'
 cask 'atom'
@@ -47,6 +46,7 @@ cask 'whatsapp'
 cask 'viber'
 cask 'spotify'
 cask 'evernote'
+brew 'transmission'
 
 # now using docker for mac
 #cask 'docker'
