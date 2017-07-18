@@ -22,6 +22,8 @@ brew 'diff-so-fancy'
 brew 'git-extras'
 brew 'httpie'
 brew 'tree'
+brew 'ansible'
+brew 'terraform'
 
 cask 'brackets'
 cask 'atom'
