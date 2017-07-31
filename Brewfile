@@ -24,6 +24,7 @@ brew 'httpie'
 brew 'tree'
 brew 'ansible'
 brew 'terraform'
+brew 'packer'
 brew 'sshuttle'
 
 cask 'brackets'
