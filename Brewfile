@@ -24,6 +24,8 @@ brew 'httpie'
 brew 'tree'
 brew 'ansible'
 brew 'terraform'
+brew 'aircrack-ng'
+brew 'reaver'
 
 cask 'brackets'
 cask 'atom'

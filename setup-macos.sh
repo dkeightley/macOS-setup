@@ -63,3 +63,6 @@ read hostname
 sudo scutil --set HostName $hostname
 sudo scutil --set LocalHostName $hostname
 sudo scutil --set ComputerName "${hostname}"
+
+# The airport command is handy
+sudo ln -s /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport /usr/local/bin/airport
