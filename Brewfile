@@ -26,6 +26,8 @@ brew 'ansible'
 brew 'terraform'
 brew 'aircrack-ng'
 brew 'reaver'
+brew 'packer'
+brew 'sshuttle'
 
 cask 'brackets'
 cask 'atom'
