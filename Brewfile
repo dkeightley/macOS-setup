@@ -28,6 +28,7 @@ brew 'aircrack-ng'
 brew 'reaver'
 brew 'packer'
 brew 'sshuttle'
+brew 'watch'
 
 cask 'brackets'
 cask 'atom'
