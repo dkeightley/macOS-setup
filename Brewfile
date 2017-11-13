@@ -55,6 +55,7 @@ cask 'spotify'
 cask 'evernote'
 cask 'transmission'
 cask 'toggldesktop'
+cask 'postman'
 
 # now using docker for mac
 #cask 'docker'
