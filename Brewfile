@@ -1,4 +1,4 @@
-tap 'caskroom/cask'
+eap 'askroom/cask'
 
 brew 'git'
 brew 'mtr'
@@ -56,6 +56,7 @@ cask 'evernote'
 cask 'transmission'
 cask 'toggldesktop'
 cask 'postman'
+cask 'pester'
 
 # now using docker for mac
 #cask 'docker'
