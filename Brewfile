@@ -29,6 +29,7 @@ brew 'reaver'
 brew 'packer'
 brew 'sshuttle'
 brew 'watch'
+brew 'neovim'
 
 cask 'brackets'
 cask 'atom'

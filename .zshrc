@@ -95,5 +95,8 @@ alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 alias dl='docker ps -l -q'
 # Reduce kubectl
 alias kc='kubectl'
+# vi/vim muscle memory
+alias vim='nvim'
+alias vi='nvim'
 
 export PATH="/usr/local/sbin:$PATH"
