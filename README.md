@@ -101,6 +101,8 @@ Run the setup-macos.sh script, this has a bunch of tweaks you won't find in Syst
 
 `./setup-macos.sh`
 
+`./set-hostname.sh`
+
 ## Chrome Extensions
 
 [https everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
@@ -114,7 +116,6 @@ Run the setup-macos.sh script, this has a bunch of tweaks you won't find in Syst
 [currently](https://chrome.google.com/webstore/detail/currently/ojhmphdkpgbibohbnpbfiefkgieacjmh?hl=en)
 
 ### Ahhh, that's better, time to reboot...
-
 
 
 ## Other bits..
