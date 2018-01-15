@@ -57,7 +57,7 @@ defaults write com.apple.dock autohide -bool true
 defaults write com.apple.Safari UniversalSearchEnabled -bool false
 defaults write com.apple.Safari SuppressSearchSuggestions -bool true
 
-iprintf "System - Reveal IP address, hostname, OS version, etc. when clicking the login window clock\n"
+printf "System - Reveal IP address, hostname, OS version, etc. when clicking the login window clock\n"
 sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
 printf "System - Require password immediately after sleep or screen saver begins\n"
