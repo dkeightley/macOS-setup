@@ -100,3 +100,4 @@ alias vim='nvim'
 alias vi='nvim'
 
 export PATH="/usr/local/sbin:$PATH"
+export EDITOR="vim"
