@@ -1,5 +1,5 @@
 execute pathogen#infect()
-filetype plugin indent on
+"filetype plugin indent on
 set paste
 syntax enable
 
@@ -11,20 +11,20 @@ endif
 
 colorscheme solarized
 
-au BufNewFile,BufRead *.py
-    \ set tabstop=4
-    \ set softtabstop=4
-    \ set shiftwidth=4
-    \ set textwidth=79
-    \ set expandtab
-    \ set autoindent
-    \ set fileformat=unix
+"au BufNewFile,BufRead *.py
+"    \ set tabstop=4
+"    \ set softtabstop=4
+"    \ set shiftwidth=4
+"    \ set textwidth=79
+"    \ set expandtab
+"    \ set autoindent
+"    \ set fileformat=unix
 
-au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+"au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
 " Indentation stuff
 
-set autoindent
+"set autoindent
 
 " 2 space hard tabs by default
 set tabstop=2
@@ -53,9 +53,9 @@ set backspace=indent,eol,start
 
 " Share with system cliboard
 set clipboard=unnamed
-set pastetoggle=<Leader>v
+"set pastetoggle=<Leader>v
 
 " Persisent undo
-silent !mkdir ~/.vim/backups > /dev/null 2>&1
-set undodir=~/.vim/backups
-set undofile
+"silent !mkdir ~/.vim/backups > /dev/null 2>&1
+"set undodir=~/.vim/backups
+"set undofile

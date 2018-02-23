@@ -57,8 +57,8 @@ defaults write com.apple.dock autohide -bool true
 defaults write com.apple.Safari UniversalSearchEnabled -bool false
 defaults write com.apple.Safari SuppressSearchSuggestions -bool true
 
-printf "System - Reveal IP address, hostname, OS version, etc. when clicking the login window clock\n"
-sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
+#printf "System - Reveal IP address, hostname, OS version, etc. when clicking the login window clock\n"
+#sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
 printf "System - Require password immediately after sleep or screen saver begins\n"
 sudo defaults write com.apple.screensaver askForPassword -int 1
@@ -73,16 +73,16 @@ sudo defaults write com.apple.BezelServices kDim -bool true
 printf "Keyboard - Set a fast keyboard repeat rate\n"
 sudo defaults write NSGlobalDomain KeyRepeat -int 0
 
-printf "Keyboard - Turn off keyboard illumination when computer is not used for 5 minutes\n"
-sudo defaults write com.apple.BezelServices kDimTime -int 300
+printf "Keyboard - Turn off keyboard illumination when computer is not used for 30 minutes\n"
+sudo defaults write com.apple.BezelServices kDimTime -int 30
 
 printf "Trackpad - Enable tap to click for current user and the login screen\n"
 sudo defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 sudo defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 sudo defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
-printf "Bluetooth - Increase sound quality for headphones/headsets\n"
-sudo defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
+#printf "Bluetooth - Increase sound quality for headphones/headsets\n"
+#sudo defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
 printf "Finder - Show hidden files\n"
 sudo defaults write com.apple.finder AppleShowAllFiles -bool true
@@ -105,8 +105,8 @@ sudo defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 printf "Finder - Use list view in all Finder windows\n"
 sudo defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
-printf "Finder - Allow quitting via COMMAND+Q -- Doing so will also hide desktop icons\n"
-sudo defaults write com.apple.finder QuitMenuItem -bool true
+#printf "Finder - Allow quitting via COMMAND+Q -- Doing so will also hide desktop icons\n"
+#sudo defaults write com.apple.finder QuitMenuItem -bool true
 
 printf "Finder - Disable the warning before emptying the Trash\n"
 sudo defaults write com.apple.finder WarnOnEmptyTrash -bool false
