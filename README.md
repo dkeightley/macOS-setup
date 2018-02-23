@@ -111,8 +111,6 @@ Run the setup-macos.sh script, this has a bunch of tweaks you won't find in Syst
 
 [ublock origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 
-[vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
-
 [currently](https://chrome.google.com/webstore/detail/currently/ojhmphdkpgbibohbnpbfiefkgieacjmh?hl=en)
 
 ### Ahhh, that's better, time to reboot...
@@ -120,10 +118,10 @@ Run the setup-macos.sh script, this has a bunch of tweaks you won't find in Syst
 
 ## Other bits..
 
-If you like having some Docker OS's and apps locally for testing etc here's a good set to have pull'ed down.
+If you like having some common Docker container layers pre-seeded locally for testing etc here's a good set to have pulled down.
 
 ```
-for i in nginx centos ubuntu logstash swarm redis kibana elasticsearch jenkins
+for i in nginx alpine centos ubuntu redis
   do
     docker pull $i
 done
