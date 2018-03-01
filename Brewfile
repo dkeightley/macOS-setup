@@ -31,6 +31,7 @@ brew 'sshuttle'
 brew 'watch'
 brew 'neovim'
 brew 'go'
+brew 'httpie'
 
 cask 'brackets'
 cask 'atom'

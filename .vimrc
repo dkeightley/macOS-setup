@@ -46,7 +46,7 @@ set autoread
 
 " Automatically write all files when exiting vim and other things
 " that may cause loss of edits
-set autowriteall
+"set autowriteall
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
