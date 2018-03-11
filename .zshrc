@@ -16,6 +16,8 @@ plugins=(zsh-autosuggestions zsh-syntax-highlighting aws ssh-agent dirhistory)
 
 source $ZSH/oh-my-zsh.sh
 
+source /usr/local/bin/aws_zsh_completer.sh
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 

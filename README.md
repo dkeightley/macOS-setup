@@ -29,6 +29,11 @@ Let brew do all the work installing the packages
 
 `brew bundle install`
 
+### Install AWSCLI via pip
+
+`sudo easy_install pip`
+`sudo pip install awscli`
+
 ### Install Docker for Mac
 
 https://docs.docker.com/docker-for-mac/install/
