@@ -12,7 +12,8 @@ export ZSH=/Users/keiderek/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
-plugins=(zsh-autosuggestions zsh-syntax-highlighting aws ssh-agent dirhistory)
+#plugins=(zsh-autosuggestions zsh-syntax-highlighting aws ssh-agent dirhistory)
+plugins=(zsh-autosuggestions zsh-syntax-highlighting ssh-agent dirhistory)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -52,6 +53,7 @@ source /usr/local/bin/aws_zsh_completer.sh
 # stamp shown in the history command output.
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # HIST_STAMPS="dd/mm/yyyy"
+HIST_STAMPS="yyyy-mm-dd"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
