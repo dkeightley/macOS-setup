@@ -44,7 +44,7 @@ cask 'iterm2'
 #cask 'google-earth'
 #cask 'google-photos-backup'
 #cask 'gimp'
-cask 'spectacle'
+#cask 'spectacle' ## moved to magnet
 cask 'sequel-pro'
 cask 'vlc'
 cask 'slack'
@@ -63,6 +63,7 @@ cask 'transmission'
 cask 'postman'
 cask 'pester'
 cask 'gifox'
+cask 'istat-menus'
 
 # now using docker for mac
 #cask 'docker'

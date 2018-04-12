@@ -31,10 +31,12 @@ Let brew do all the work installing the packages
 
 ### Install AWSCLI via pip
 
-`sudo easy_install pip`
-`sudo pip install awscli`
-`sudo pip install awsebcli`
-`sudo pip install aws-shell`
+```
+sudo easy_install pip
+sudo pip install awscli
+sudo pip install awsebcli
+sudo pip install aws-shell
+```
 
 ### Install Docker for Mac
 
