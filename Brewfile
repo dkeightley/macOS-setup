@@ -34,6 +34,7 @@ brew 'go'
 brew 'httpie'
 brew 'aws-cfn-tools'
 brew 'jq'
+brew '
 
 cask 'brackets'
 cask 'atom'
