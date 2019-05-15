@@ -2,10 +2,10 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Added .../Python2.7/bin/ for local python apps installed with 'pip install app --user'
-export PATH="/Users/keiderek/Library/Python/2.7/bin:/usr/local/sbin:$PATH"
+export PATH="~/Library/Python/2.7/bin:/usr/local/sbin:$PATH"
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/keiderek/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -98,7 +98,7 @@ alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 # Docker niceties
 alias dl='docker ps -l -q'
 # Reduce kubectl
-alias kc='kubectl'
+alias k='kubectl'
 # vi/vim muscle memory
 #alias vim='nvim'
 #alias vi='nvim'
