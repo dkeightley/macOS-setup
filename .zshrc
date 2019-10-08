@@ -1,23 +1,17 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Added .../Python2.7/bin/ for local python apps installed with 'pip install app --user'
-export PATH="/Users/keiderek/Library/Python/2.7/bin:/usr/local/sbin:$PATH"
-
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/keiderek/.oh-my-zsh
+export ZSH=/Users/derek/.oh-my-zsh
+
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+export EDITOR="vim"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerlevel9k/powerlevel9k"
-
-#plugins=(zsh-autosuggestions zsh-syntax-highlighting aws ssh-agent dirhistory)
-plugins=(zsh-autosuggestions zsh-syntax-highlighting ssh-agent dirhistory)
-
-source $ZSH/oh-my-zsh.sh
-
-source /usr/local/bin/aws_zsh_completer.sh
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(history time)
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -42,7 +36,7 @@ source /usr/local/bin/aws_zsh_completer.sh
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
- COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -52,11 +46,18 @@ source /usr/local/bin/aws_zsh_completer.sh
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# HIST_STAMPS="dd/mm/yyyy"
 HIST_STAMPS="yyyy-mm-dd"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(zsh-autosuggestions zsh-syntax-highlighting docker git ssh-agent kubectl)
+
+source $ZSH/oh-my-zsh.sh
 
 #AUTOSUGGESTION_HIGHLIGHT_COLOR="fg=8"
 
@@ -90,17 +91,20 @@ HIST_STAMPS="yyyy-mm-dd"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 ## alias niceties
+alias utc='TZ=UTC date +%FT%TZ'
 alias history='fc -fl 1'
 alias ll='ls -lah'
 alias lt='ls -altrh'
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
-
 # Docker niceties
 alias dl='docker ps -l -q'
 # Reduce kubectl
 alias kc='kubectl'
 # vi/vim muscle memory
-#alias vim='nvim'
-#alias vi='nvim'
-
-export EDITOR="vim"
+alias vim='nvim'
+alias vi='nvim'
+alias k='kubectl'
+alias ks='kubectl -n kube-system'
+alias kn='kubectl -n '
+alias kg='kubectl get'
+alias kd='kubectl describe'

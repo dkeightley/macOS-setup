@@ -29,17 +29,6 @@ Let brew do all the work installing the packages
 
 `brew bundle install`
 
-### Install AWSCLI via pip
-
-```
-sudo easy_install pip
-sudo pip install -r requirements.txt
-```
-
-### Install Docker for Mac
-
-https://docs.docker.com/docker-for-mac/install/
-
 ## Setup VIM
 
 ### Install pathogen
@@ -73,7 +62,7 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 ### Set the your preferred theme
 
-Lowerlevel9k (preferred)
+* Lowerlevel9k (preferred)
 
 `git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
 
@@ -81,18 +70,18 @@ Lowerlevel9k (preferred)
 
 #### OR
 
-Agnoster
+* Agnoster
 
 `sed -i '' 's/ZSH_THEME=.*/ZSH_THEME="agnoster"/' ~/.zshrc`
 
-#### zsh auto suggestions and highlighting
+### zsh auto suggestions and highlighting
 
 `git clone git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions`
 `git clone git://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting`
 
 ## Setup terminals 
 
-The above zsh themes won't look very nice until you get setup with the solarized theme and a custom font
+The above zsh themes won't look very nice until you get setup with the solarized theme and a custom font.
 
 Meslo is nice, however feel free to choose your own.
 
@@ -122,13 +111,12 @@ Run the setup-macos.sh script, this has a bunch of tweaks you won't find in Syst
 
 ### Ahhh, that's better, time to reboot...
 
-
 ## Other bits..
 
 If you like having some common Docker container layers pre-seeded locally for testing etc here's a good set to have pulled down.
 
 ```
-for i in nginx alpine centos ubuntu redis
+for i in nginx alpine centos ubuntu redis busybox
   do
     docker pull $i
 done

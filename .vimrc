@@ -1,6 +1,10 @@
 execute pathogen#infect()
-"filetype plugin indent on
+syntax on
 set paste
+filetype plugin indent on
+
+" YAML spaces
+"autocmd Filetype yaml setlocal ts=2 sts=2 sw=2 expandtab
 
 if !has("gui_running")
     let g:solarized_termtrans=1
@@ -26,26 +30,16 @@ colorscheme solarized
 "set autoindent
 
 " 2 space hard tabs by default
-set tabstop=4
-set shiftwidth=4
-"set softtabstop=2
-set smarttab
-set expandtab
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set noexpandtab
 
 " Other nice stuff
-
-" vim-json Configuration
-let g:vim_json_syntax_conceal = 0
-
-" Fix Mac backspace issue
-set backspace=indent,eol,start
 
 " Save buffer after a certain time after leaving insert mode
 set updatetime=200
 autocmd BufLeave,CursorHold,InsertLeave * silent! wa
-
-" File types / syntax stuff
-syntax on
 
 " Autoreload all files
 set autoread
@@ -54,11 +48,14 @@ set autoread
 " that may cause loss of edits
 "set autowriteall
 
+" allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+
 " Share with system cliboard
 set clipboard=unnamed
 "set pastetoggle=<Leader>v
 
 " Persisent undo
-"silent !mkdir ~/.vim/backups > /dev/null 2>&1
-"set undodir=~/.vim/backups
-"set undofile
+silent !mkdir ~/.vim/backups > /dev/null 2>&1
+set undodir=~/.vim/backups
+set undofile
