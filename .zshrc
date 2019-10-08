@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/derek/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export EDITOR="vim"
@@ -99,7 +99,7 @@ alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 # Docker niceties
 alias dl='docker ps -l -q'
 # Reduce kubectl
-alias kc='kubectl'
+alias k='kubectl'
 # vi/vim muscle memory
 alias vim='nvim'
 alias vi='nvim'
