@@ -1,5 +1,0 @@
-flake8
-autopep8
-awscli
-awsebcli
-aws-shell
