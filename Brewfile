@@ -1,5 +1,3 @@
-tap 'caskroom/cask'
-
 brew 'git'
 brew 'mtr'
 brew 'npm'
