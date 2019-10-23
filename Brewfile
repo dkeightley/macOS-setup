@@ -30,6 +30,8 @@ brew 'doctl'
 brew 'docker-compose'
 brew 'neovim'
 brew 'kubernetes-helm'
+brew 'rancher-cli'
+brew 'rke'
 
 cask 'google-chrome'
 cask 'firefox'
