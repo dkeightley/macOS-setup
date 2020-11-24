@@ -52,7 +52,7 @@ set autoread
 set backspace=indent,eol,start
 
 " Share with system cliboard
-set clipboard=unnamed
+"set clipboard=unnamed
 "set pastetoggle=<Leader>v
 
 " Persisent undo
